@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- bootstrap file -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!-- fontawesome -->
+	 <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+	<!-- my css file -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<!-- ###################  Home section  ###################  -->
+<section id="home">
+	<div class="redLayer">
+		<div class=" text-center homeContent">	
+			<h2 class="text-white mt-5">Egyption Party</h2>
+			<span class="text-white">Let's have Fun</span>
+		</div>
+	</div>
+
+
+		<nav class="w-25 text-start position-relative d-flex align-items-center">
+			<div class="myNav">
+				<span class="fs-3 position-absolute top-0 end-0 pe-4 pt-2 exitButton hoverEvent">X</span>
+				<div class="vh-100 bg-black text-white py-5 d-flex justify-content-center align-items-center">
+					<div class="">
+						<ul class="navbar-nav px-4">
+							<li class="nav-item myNavItem my-4 fs-3"><a href="#home" class="hoverEvent">Home</a></li>
+							<li class="nav-item myNavItem my-4 fs-3"><a href="#duration" class="hoverEvent">Duration</a></li>
+							<li class="nav-item myNavItem my-4 fs-3"><a href="#details" class="hoverEvent">Details</a></li>
+							<li class="nav-item myNavItem my-4 fs-3"><a href="#contact" class="hoverEvent">Contact</a></li>
+						</ul>
+						</div>
+
+					<div class="w-50 text-white fs-3 mb-4 myOpenNav d-flex justify-content-center align-items-center">
+						<i class="fa-solid fa-bars ms-2 w-25"></i>
+						<a class=" w-50 px-2 openBtn ">Open</a>
+					</div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<!-- ################### End Home Section ################### -->
+
+
+<!-- ################### Start Singers Section ################### -->
+
+
+	<div class="singers" id="details">
+		<div class="container w-75">
+			<div class=" row m-5">
+				<div class="text-center">
+					<div class="myItem">
+						<h3 class="p-2 myTitleClick">Singer one</h3>
+						<p class="myText p-4 m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+					<div class="myItem">
+						<h3 class="p-2 myTitleClick">Singer Two</h3>
+						<p class="myText p-2 m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+					<div class="myItem">
+						<h3 class="p-2 myTitleClick">Singer Three</h3>
+						<p class="myText p-2 m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+					<div class="myItem">
+						<h3 class="p-2 myTitleClick">Singer Four</h3>
+						<p class="myText p-2 m-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ################### End Singers Section ################### -->
+
+
+<!-- ################### Start CountDown Section ################### -->
+
+<div class="countDownSection my-5" id="duration">
+	<div class="overLayer"></div>
+	<div class="container-fluid">
+		<div class="row mx-5 text-center">
+			<div class="col-md-3 my-5 z-2">
+				<div class="p-5 border-2  countDown fs-3">
+					<p id="days"></p>
+				</div>
+			</div>
+			<div class="col-md-3 my-5 z-2">
+				<div class="p-5 countDown fs-3">
+					<p id="hours"></p>
+				</div>
+			</div>
+			<div class="col-md-3 my-5 z-2">
+				<div class="p-5 border-2 countDown fs-3">
+					<p id="minutes"></p>
+				</div>
+			</div>
+			<div class="col-md-3 my-5 z-2">
+				<div class="p-5 border-2 countDown fs-3">
+					<p id="seconds"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ################### End countDown Section ################### -->
+
+
+
+
+
+<!-- ################### Start Contact Section ################### -->
+<div class="contactInfo" id="contact">
+	<div class="container">
+		<h2 class="my-5">JOIN US</h2>
+	<div class="text-center text-secondary my-4">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+
+	</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="ContactText">
+
+					<h3>Contact info</h3>
+					<div class="text-center px-4">
+						<p class="text-secondary">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+						<p class="text-secondary"> <i class="fa-solid fa-location-pin myIcons p-2 mx-2"></i>New Street 22545, Nexa Road, New York City, USA</p>
+						<p class="text-secondary"><i class="fa-solid fa-envelope myIcons p-2 mx-2"></i>hello@uigrid.com</p>
+						<p class="text-secondary"><i class="fa-solid fa-phone  myIcons p-2 mx-2"></i> 001-000-000-000</p>
+					</div>
+					<div class="socialMediaIcons fs-3 my-3 ">
+						<i class="fa-brands fa-twitter me-2 myIcons p-2"></i>
+						<i class="fa-brands fa-facebook me-2 myIcons p-2"></i>
+						<i class="fa-brands fa-instagram me-2 myIcons p-2"></i>
+						<i class="fa-brands fa-linkedin me-2 myIcons p-2"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div>
+					<input type="text" class="w-75 my-2 form-control" placeholder="Enter Your Name">
+					<input type="email" class="w-75 my-2 form-control"  placeholder="Enter Your Email">
+					<textarea name="" id="textarea"  placeholder="Enter Message" class="form-control w-75 my-2"></textarea>
+
+					<p><span class="text-danger charsCount">100</span>characters Remaining</p>
+					<button type="button" class="btn btn-danger p-3">Send Message</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ################### End Contact Section ################### -->
+
+
+
+
+
+
+
+
+	<!-- my js file -->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
